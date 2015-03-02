@@ -3,7 +3,7 @@ require "logstash/codecs/base"
 class LogStash::Codecs::CEF < LogStash::Codecs::Base
   config_name "cef"
 
-
+  # test123
   # Specify if the Syslog header will be expected
   config :syslog, :validate => :boolean, :default => false
 
